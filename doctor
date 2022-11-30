@@ -1,0 +1,42 @@
+import { especialidad } from './especialidad';
+export class doctor{
+    private codigo:number=0;
+    private especialidad:string="";
+    private listaPacientes:number=0;
+    private nombre:string="";
+    constructor(codigo:number, especialidad:string, listaPacientes:number, nombre:string){
+        
+        this.codigo=codigo;
+        this.especialidad=especialidad;
+        this.listaPacientes=listaPacientes;
+        this.nombre=nombre;
+    }
+    public get_codigo():number {
+        return this.codigo;
+    }
+    public get_especialidad():string {
+        return this.especialidad;
+    }
+    public get_listaPacientes():number {
+        return this.listaPacientes;
+    }
+    public get_nombre():string {
+        return this.nombre;
+    }
+    public set_codigo(codigo:number){
+        this.codigo = codigo;
+     }
+     public set_especialidad(especialidad:string){
+        this.especialidad = especialidad;
+     }
+     public set_listaPacientes(listaPacientes:number){
+        this.listaPacientes = listaPacientes;
+     }
+     public set_nombre(nombre:string){
+        this.nombre = nombre;
+     }
+     public obtenerDatos(mensaje:string):string{
+        return mensaje;
+       }
+
+}

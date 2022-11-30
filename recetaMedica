@@ -1,0 +1,27 @@
+export class recetaMedica{
+    private medicamentos:string='';
+    private tratamiento:string='';
+
+    constructor(medicamentos:string,tratamiento:string){
+        this.medicamentos = medicamentos;
+        this.tratamiento = this.tratamiento;
+    }
+    public get_medicamentos():string {
+        return this.medicamentos;
+    }
+    public get_tratamiento():string {
+        return this.tratamiento;
+    }
+    public set_medicamentos(medicamentos:string){
+        this.medicamentos = medicamentos;
+     }
+    public set_tratamiento(tratamiento:string){
+        this.tratamiento = tratamiento;
+     }
+    public obtenerDatos(mensaje:string):string{
+        return mensaje;
+       }
+    public obtenerReceta(mensaje:string):string{
+        return mensaje;
+       }
+} 

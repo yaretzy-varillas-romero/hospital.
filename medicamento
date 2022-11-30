@@ -1,0 +1,24 @@
+export class medicamento{
+    private codigo:number=0;
+    private nombre:string='';
+
+    constructor(codigo:number,nombre:string){
+        this.codigo = codigo;
+        this.nombre = nombre;
+    }
+    public get_codigo():number {
+        return this.codigo;
+    }
+    public get_nombre():string {
+        return this.nombre;
+    }
+    public set_codigo(codigo:number){
+        this.codigo = codigo;
+     }
+    public set_nombre(nombre:string){
+        this.nombre = nombre;
+     }
+    public obtenerDatos(mensaje:string):string{
+        return mensaje;
+       }
+} 

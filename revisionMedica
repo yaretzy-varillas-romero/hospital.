@@ -1,0 +1,34 @@
+
+export class revicionMedica{
+    private codigo:number=0;
+    private fecha:number=0;
+
+    constructor(codigo:number,fecha:number){
+        this.codigo = codigo;
+        this.fecha = fecha;
+    }
+    public get_codigo():number {
+        return this.codigo;
+    }
+    public get_fecha():number {
+        return this.fecha;
+    }
+    public set_codigo(codigo:number){
+        this.codigo = codigo;
+     }
+    public set_fecha(fecha:number){
+        this.fecha = fecha;
+     }
+    public añadirDiagnostico(mensaje:string):string{
+        return mensaje;
+       }
+    public asignarDoctor(mensaje:string):string{
+        return mensaje;
+       }
+    public asignarEspecialidad(mensaje:string):string{
+        return mensaje;
+       }
+    public obtenerInformacion(mensaje:string):string{
+        return mensaje;
+       }
+} 

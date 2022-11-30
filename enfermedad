@@ -1,0 +1,24 @@
+export class enfermedad{
+    private tratamiento:string='';
+    private nombre:string='';
+
+    constructor(tratamiento:string,nombre:string){
+        this.tratamiento = tratamiento;
+        this.nombre = nombre;
+    }
+    public get_tratamiento():string {
+        return this.tratamiento;
+    }
+    public get_nombre():string {
+        return this.nombre;
+    }
+    public set_tratamiento(tratamiento:string){
+        this.tratamiento = tratamiento;
+     }
+    public set_nombre(nombre:string){
+        this.nombre = nombre;
+     }
+    public obtenerInformacion(mensaje:string):string{
+        return mensaje;
+       }
+} 

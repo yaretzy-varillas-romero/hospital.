@@ -1,0 +1,37 @@
+
+export class hospital{
+    private doctor:string='';
+    private paciente:string='';
+
+    constructor(doctor:string,paciente:string){
+        this.doctor = doctor;
+        this.paciente = paciente;
+    }
+    public get_doctor():string {
+        return this.doctor;
+    }
+    public get_paciente():string {
+        return this.paciente;
+    }
+    public set_doctor(doctor:string){
+        this.doctor = doctor;
+     }
+    public set_paciente(paciente:string){
+        this.paciente = paciente;
+     }
+    public añadirRevicionMedica(mensaje:string):string{
+        return mensaje;
+       }
+    public buscarRegistro(mensaje:string):string{
+        return mensaje;
+       }
+    public listarPacientes(mensaje:string):string{
+        return mensaje;
+       }
+    public registraPaciente(mensaje:string):string{
+        return mensaje;
+       }
+    public solicitarHistorialMedico(mensaje:string):string{
+        return mensaje;
+       }
+} 

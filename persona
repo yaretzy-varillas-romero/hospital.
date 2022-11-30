@@ -1,0 +1,25 @@
+
+export class persona{
+    private cl:number=0;
+    private nombre:string='';
+
+    constructor(cl:number,nombre:string){
+        this.cl = cl;
+        this.nombre = nombre;
+    }
+    public get_cl():number {
+        return this.cl;
+    }
+    public get_nombre():string {
+        return this.nombre;
+    }
+    public set_cl(cl:number){
+        this.cl = cl;
+     }
+    public set_nombre(nombre:string){
+        this.nombre = nombre;
+     }
+    public obtenerDatosPersonales(mensaje:string):string{
+        return mensaje;
+       }
+} 

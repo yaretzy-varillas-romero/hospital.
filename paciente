@@ -1,0 +1,31 @@
+
+export class paciente{
+    private codigo:number=0;
+    private fechaInternacion:number=0;
+
+    constructor(codigo:number,nombre:string){
+        this.codigo = codigo;
+        this.fechaInternacion = this.fechaInternacion;
+    }
+    public get_codigo():number {
+        return this.codigo;
+    }
+    public get_fechaInternacion():number {
+        return this.fechaInternacion;
+    }
+    public set_codigo(codigo:number){
+        this.codigo = codigo;
+     }
+    public set_fechaInternacion(fechaInternacion:number){
+        this.fechaInternacion = fechaInternacion;
+     }
+    public crearRegistroMedico(mensaje:string):string{
+        return mensaje;
+       }
+    public obtenerDatos(mensaje:string):string{
+        return mensaje;
+       }
+    public registroMedico(mensaje:string):string{
+        return mensaje;
+       }
+} 

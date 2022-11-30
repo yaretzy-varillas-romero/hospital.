@@ -1,0 +1,40 @@
+
+export class diagnostico{
+    private enfermedad:string='';
+    private observacion:string='';
+    private recetaMedica:string='';
+
+    constructor(enfermedad:string,observacion:string,recetaMedica:string){
+        this.enfermedad = enfermedad;
+        this.observacion = observacion;
+        this.recetaMedica = recetaMedica;
+
+    }
+    public get_enfermedad():string {
+        return this.enfermedad;
+    }
+    public get_observacion():string {
+        return this.observacion;
+    }
+    public get_recetaMedica():string {
+        return this.recetaMedica;
+    }
+    public set_enfermedad(enfermedad:string){
+        this.enfermedad = enfermedad;
+     }
+    public set_observacion(observacion:string){
+        this.observacion = observacion;
+     }
+    public set_recetaMedica(recetaMedica:string){
+        this.recetaMedica = recetaMedica;
+     }
+    public añadirReceta(mensaje:string):string{
+        return mensaje;
+       }
+    public crearReceta(mensaje:string):string{
+        return mensaje;
+       }
+    public listarRecetas(mensaje:string):string{
+        return mensaje;
+       }
+} 
